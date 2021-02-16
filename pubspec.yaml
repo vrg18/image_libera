@@ -15,9 +15,16 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
 
 flutter:
   uses-material-design: true
 
   assets:
     - res/doctor-who.jpg
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  web: true
+  image_path: "res/doctor-who.jpg"
