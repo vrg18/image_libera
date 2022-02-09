@@ -18,7 +18,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox.expand(
       child: Image.asset(
-        'res/doctor-who.jpg',
+        'res/blue_angel_2560x1440.jpg',
         fit: BoxFit.cover,
       ),
     );
